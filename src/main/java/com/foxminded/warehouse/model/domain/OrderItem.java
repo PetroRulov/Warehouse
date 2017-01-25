@@ -2,7 +2,7 @@ package com.foxminded.warehouse.model.domain;
 
 import java.math.BigDecimal;
 
-public class OrderItem extends Goods {
+public class OrderItem {
 
     private Goods goods;
     private BigDecimal value;

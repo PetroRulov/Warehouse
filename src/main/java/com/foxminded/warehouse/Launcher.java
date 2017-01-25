@@ -17,13 +17,14 @@ public class Launcher {
         Warehouse stock = new Warehouse();
         stock.setiWDBCreator(new DBLocal_Creator());
         stock.consoleWarehouse();
+        System.out.println();
 //        stock.printProducersList();
 //        stock.printProvidersList();
 //        stock.printRemainInStockSelectedByProvider("26113487");
 //        stock.printRemainInStockSelectedByGroup("280");
 //        stock.printRemainInStockByBarcode("7-14876512-210-5");
 //        stock.printCatalogue();
-//        stock.printReceiptsJournal();
+        stock.printReceiptsJournal();
 
 
 
